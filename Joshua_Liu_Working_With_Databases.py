@@ -44,6 +44,4 @@ for key in Marvel_Superheros:
 
 print("{:<12} {:<12}".format("Hero Title:", "Name:"))
 for key in Marvel_Superheros:
-    hero = f"Hero Title: {key}"
-    name = f'Name: {Marvel_Superheros[key]["Name"]}'
-    print("{:<12} {:<12}".format(hero, name))
+    print("{:<12} {:<12}".format(key, Marvel_Superheros[key]["Name"]))
